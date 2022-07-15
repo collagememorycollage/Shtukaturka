@@ -1,0 +1,207 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "ProximaNova-regular";
+  src: url("/src/fonts/ProximaNova-Bold.eot");
+  src: local("☺"), url("/src/fonts/ProximaNova-Regular.woff") format("woff"), url("/src/fonts/ProximaNova-Regular.ttf") format("truetype"), url("/src/fonts/ProximaNova-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova-bold";
+  src: url("/src/fonts/ProximaNova-Bold.eot");
+  src: local("☺"), url("/src/fonts/ProximaNova-Bold.woff") format("woff"), url("/srcfonts/ProximaNova-Bold.ttf") format("truetype"), url("/srcfonts/ProximaNova-Bold.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  font-family: "ProximaNova-regular";
+}
+
+.header {
+  background: #fff url(../img/main-bg.png) center center no-repeat;
+  background-size: cover;
+  padding-top: 1rem;
+}
+.header__row-right-block {
+  background: #fff;
+  height: 25rem;
+  text-align: center;
+}
+
+.phone__text {
+  text-decoration: none;
+  color: #1a1820;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 1.1rem;
+  font-family: "ProximaNova-bold";
+}
+
+label {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  background-color: #fff;
+  padding: 0.6rem;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.btn__link-header {
+  display: table;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  border: none;
+  background: #fcb303;
+  color: #fff;
+  margin-top: 0.3rem;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+.btn__link-header:hover {
+  cursor: pointer;
+  background-color: #808080;
+}
+.btn__link-row-right {
+  font-size: 0.9rem;
+  border-radius: 10px;
+  border: none;
+  background: #fcb303;
+  color: #fff;
+  margin-top: 0.3rem;
+  padding: 1.2rem 3rem;
+}
+
+.text__title-left {
+  font-family: "ProximaNova-bold";
+  font-size: 1.6875rem;
+  padding-top: 4rem;
+}
+.text__subtitle-left {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+  font-size: 1.0625rem;
+}
+.text__form-header-left {
+  text-align: center;
+  background-color: #46b814;
+  color: #fff;
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+}
+.text__row-header-left {
+  font-family: "ProximaNova-bold";
+  padding-top: 1.5rem;
+  font-size: 1.1rem;
+  padding-bottom: 4rem;
+}
+
+.tetx__title-right {
+  margin-top: 4.1rem;
+  display: block;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+.tetx__right-row {
+  padding-top: 0.4rem;
+  font-size: 0.7rem;
+}
+
+.main-form-input {
+  display: block;
+  width: 60%;
+  padding: 1rem;
+  border: 1px solid #dddddd;
+  margin-left: 4.2rem;
+  margin-bottom: 1rem;
+  margin-top: 1.6rem;
+  outline: none;
+  border-radius: 5px;
+}
+
+.sector-benefits__title {
+  font-family: "ProximaNova-bold";
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+}
+.sector-benefits__collums {
+  padding-bottom: 6rem;
+}
+
+.sextor-benefits__item {
+  text-align: center;
+}
+
+.item__title {
+  font-family: "ProximaNova-bold";
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+}
+.item__text {
+  font-size: 0.9rem;
+}
+
+.sector-price {
+  background: #fff url(../img/bg-price.jpg) center center no-repeat;
+  background-size: cover;
+}
+.sector-price__header {
+  padding-top: 4rem;
+}
+.sector-price__title {
+  color: #fff;
+  font-family: "ProximaNova-bold";
+  text-align: center;
+  font-family: "ProximaNova-bold";
+  font-size: 1.6rem;
+  text-align: center;
+}
+.sector-price__subtitle {
+  padding-top: 2rem;
+  color: #fff;
+  font-family: "ProximaNova-regular";
+  font-size: 0.8rem;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .phone__link {
+    text-align: center;
+  }
+  .header__row-left {
+    text-align: center;
+  }
+  .text__title-left {
+    padding-top: 2rem;
+  }
+  .header__row-right {
+    display: flexbox;
+    padding-bottom: 3rem;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text__row-header-left {
+    padding-bottom: 1rem;
+  }
+  .text__form-header-left {
+    display: inline-block;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .header__top {
+    text-align: center;
+  }
+  .btn__link-header {
+    display: inline-block;
+    text-align: center;
+  }
+  .header {
+    background-position: top left;
+  }
+}/*# sourceMappingURL=style.css.map */
